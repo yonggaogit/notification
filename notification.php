@@ -1,0 +1,42 @@
+<html>
+<head><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="Content-Language" content="en-US">
+<title>Problem</title>
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<style>
+  a:link{text-decoration:none}a:visited{text-decoration:none}a:active{text-decoration:underline}a:hover{text-decoration:underline}
+</style>
+<style>
+    .container{
+      width: 90%;
+      margin: 4px;
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 3px;
+      padding: 10px 6px;
+      overflow-y: auto;
+
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    .container pre{
+      white-space: pre-wrap; 
+      word-wrap: break-word; 
+    }
+</style>
+</head>
+<body lang="en-US" leftmargin=5 >
+<table align="center">
+<tr><td align="center"><font size=6 color="darkblue"><b>通知测试</b></font></td></tr>
+<tr><td align="center"><b>Publisher: </b>admin</td></tr>
+<tr><td align="center"><b>Publish Time: </b>2022-8-13</td></tr>
+</table>
+
+<div class="container">
+<pre>
+  <font size="4">这是一个测试\n这是一个测试\n这是一个测试</font>
+</pre>
+</div>
+</body></html>
+
